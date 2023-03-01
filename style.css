@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #131316;
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+
+}
+
+h1{
+    font-size: 69px;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+}
